@@ -15,6 +15,9 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.blue.heart.util.Config;
+import com.blue.heart.util.Utils;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -70,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
         connectText = (TextView) findViewById(R.id.connectText);
 
         buffer = new StringBuffer();
-        String ss =Utils.getFilePath();
+        String ss = Utils.getFilePath();
         Log.d("MainActivity",ss+"---------------------------------------------------------");
 
         File file = new File(ss);
@@ -234,8 +237,6 @@ public class MainActivity extends AppCompatActivity {
             while (true) {
                 try {
                     inputStream.read(buff,0,5);
-                    datas = buff;
-
                     string = Utils.bin2HexStr(buff);
                     buffer.append(string+" ");
 

@@ -28,5 +28,8 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.android.support:recyclerview-v7:26.+'
     compile 'cn.yipianfengye.android:zxing-library:2.2'
+//    compile 'cn.bmob.android:bmob-sdk:3.5.0'
+    compile 'cn.bmob.android:bmob-sdk:3.5.5'
+    compile 'cn.bmob.android:http-legacy:1.0'
     testCompile 'junit:junit:4.12'
 }

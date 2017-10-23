@@ -22,6 +22,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
+import cn.bmob.v3.Bmob;
+
 
 public class RegisterActivity extends AppCompatActivity {
 
@@ -115,7 +117,7 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     public void init(){
-      //  Bmob.initialize(this, "7a9a1ebc139655e8ca2c74b2b7c68b25");
+        Bmob.initialize(this, "e41d17b489440cf5664f2f5761a84cb9");
         headImView = (ImageView)findViewById(R.id.headImView);
         ScanNode = (ImageView)findViewById(R.id.ScanNode);
         ID = (EditText)findViewById(R.id.ID);
@@ -124,5 +126,4 @@ public class RegisterActivity extends AppCompatActivity {
         thread = new IFThread();
         thread.start();
     }
-
 }
