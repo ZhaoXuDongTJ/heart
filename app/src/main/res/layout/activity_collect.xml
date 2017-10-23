@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.blue.heart.CollectActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/noticeTV"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/StateTV"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+        <Button
+            android:id="@+id/startCollectBtn"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="开始采集" />
+
+        <Button
+            android:id="@+id/stopCollectBtn"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="停止采集" />
+
+        <Button
+            android:id="@+id/showCollectBtn"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="查看结果" />
+    </LinearLayout>
+
+</LinearLayout>

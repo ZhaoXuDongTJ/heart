@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.blue.heart.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <Button
+            android:id="@+id/openBlue"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="open/close"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/searchBlue"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="have now" />
+
+        <TextView
+            android:id="@+id/showBlue"
+            android:layout_width="361dp"
+            android:layout_height="45dp" />
+
+        <Button
+            android:id="@+id/searchBlueS"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:text="searchBlueS" />
+
+        <TextView
+            android:id="@+id/showBlueS"
+            android:layout_width="361dp"
+            android:layout_height="42dp" />
+
+        <Button
+            android:id="@+id/connect"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="connect" />
+
+        <TextView
+            android:id="@+id/connectText"
+            android:layout_width="match_parent"
+            android:layout_height="57dp" />
+        <Button
+            android:id="@+id/getData"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="收数据"/>
+        <Button
+            android:id="@+id/closeData"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="结束数据"/>
+
+    </LinearLayout>
+
+</LinearLayout>
